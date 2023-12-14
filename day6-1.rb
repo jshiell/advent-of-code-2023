@@ -23,5 +23,4 @@ races.each do |race|
     options_per_race << winning_options
 end
 
-puts options_per_race.inspect
 puts options_per_race.inject(:*)
