@@ -1,9 +1,5 @@
 #!/usr/bin/env ruby
 
-def factorial(n)
-    (1..n).inject(:*) || 1
-end
-
 inputs = []
 
 File.open('day9.txt', 'r') do |f|
